@@ -1796,15 +1796,17 @@
   {
     "word": "fadäs",
     "options": [
-      "överdrift",
-      "motgång",
-      "ovana",
-      "misstag"
+      "elakt skämt",
+      "kort vistelse",
+      "påminnelse",
+      "pinsamt misstag"
     ],
     "correct": 3,
-    "source": "SweSAT Synonyms 1.1 / Högskoleprovet",
-    "sourceId": "h06b20",
-    "license": "CC BY 4.0"
+    "exam": "2026-04-18",
+    "pass": 2,
+    "question": 8,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "oförutsedd utgift"
   },
   {
     "word": "avpassa",
@@ -2134,15 +2136,17 @@
   {
     "word": "kontentan",
     "options": [
-      "första intrycket",
-      "höjdpunkten",
       "slutfasen",
+      "höjdpunkten",
+      "första intrycket",
       "huvudinnehållet"
     ],
     "correct": 3,
-    "source": "SweSAT Synonyms 1.1 / Högskoleprovet",
-    "sourceId": "h07a11",
-    "license": "CC BY 4.0"
+    "exam": "2026-04-18",
+    "pass": 4,
+    "question": 1,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "motsvarigheten"
   },
   {
     "word": "kastanjetter",
@@ -3434,15 +3438,17 @@
   {
     "word": "osökt",
     "options": [
-      "tydligt",
-      "riktigt",
-      "avsiktligt",
-      "naturligt"
+      "rättvist",
+      "naturligt",
+      "intressant",
+      "hoppfullt"
     ],
-    "correct": 3,
-    "source": "SweSAT Synonyms 1.1 / Högskoleprovet",
-    "sourceId": "h08a38",
-    "license": "CC BY 4.0"
+    "correct": 1,
+    "exam": "2024-10-20",
+    "pass": 3,
+    "question": 7,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "viktigt"
   },
   {
     "word": "gå i kvav",
@@ -5423,15 +5429,17 @@
   {
     "word": "attribut",
     "options": [
-      "tillbehör",
-      "intryck",
+      "villkor",
       "innehåll",
-      "hyllning"
+      "begåvning",
+      "kännetecken"
     ],
-    "correct": 0,
-    "source": "SweSAT Synonyms 1.1 / Högskoleprovet",
-    "sourceId": "h10b13",
-    "license": "CC BY 4.0"
+    "correct": 3,
+    "exam": "2025-10-19",
+    "pass": 3,
+    "question": 6,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "utfyllnad"
   },
   {
     "word": "tillskansa sig",
@@ -10684,5 +10692,1445 @@
     "source": "SweSAT Synonyms 1.1 / Högskoleprovet",
     "sourceId": "h21bb10",
     "license": "CC BY 4.0"
+  },
+  {
+    "word": "basal",
+    "options": [
+      "hållbar",
+      "underförstådd",
+      "vardaglig",
+      "grundläggande"
+    ],
+    "correct": 3,
+    "exam": "2025-04-05",
+    "pass": 2,
+    "question": 1,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "genomtänkt"
+  },
+  {
+    "word": "defekt",
+    "options": [
+      "olycka",
+      "brist",
+      "obehag",
+      "tröghet"
+    ],
+    "correct": 1,
+    "exam": "2025-04-05",
+    "pass": 2,
+    "question": 2,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "misstag"
+  },
+  {
+    "word": "länsa",
+    "options": [
+      "putsa",
+      "fånga",
+      "lossa",
+      "tömma"
+    ],
+    "correct": 3,
+    "exam": "2025-04-05",
+    "pass": 2,
+    "question": 3,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "sänka"
+  },
+  {
+    "word": "gensvar",
+    "options": [
+      "reflektion",
+      "påpekande",
+      "klargörande",
+      "respons"
+    ],
+    "correct": 3,
+    "exam": "2025-04-05",
+    "pass": 2,
+    "question": 4,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "upprepning"
+  },
+  {
+    "word": "kontroversiell",
+    "options": [
+      "obegriplig",
+      "kritisk",
+      "omtvistad",
+      "angelägen"
+    ],
+    "correct": 2,
+    "exam": "2025-04-05",
+    "pass": 2,
+    "question": 5,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "omdömeslös"
+  },
+  {
+    "word": "eskapader",
+    "options": [
+      "hemligheter",
+      "genvägar",
+      "drömmar",
+      "äventyr"
+    ],
+    "correct": 3,
+    "exam": "2025-04-05",
+    "pass": 2,
+    "question": 6,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "förklädnader"
+  },
+  {
+    "word": "förfoga över",
+    "options": [
+      "ha",
+      "ge",
+      "byta",
+      "ta"
+    ],
+    "correct": 0,
+    "exam": "2025-04-05",
+    "pass": 2,
+    "question": 7,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "få"
+  },
+  {
+    "word": "diger",
+    "options": [
+      "härlig",
+      "stor",
+      "underlig",
+      "djup"
+    ],
+    "correct": 1,
+    "exam": "2025-04-05",
+    "pass": 2,
+    "question": 8,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "smaklig"
+  },
+  {
+    "word": "aversion",
+    "options": [
+      "motsats",
+      "bestämdhet",
+      "förtvivlan",
+      "motvilja"
+    ],
+    "correct": 3,
+    "exam": "2025-04-05",
+    "pass": 2,
+    "question": 9,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "besvikelse"
+  },
+  {
+    "word": "fåfängt",
+    "options": [
+      "energiskt",
+      "sällsynt",
+      "resultatlöst",
+      "försiktigt"
+    ],
+    "correct": 2,
+    "exam": "2025-04-05",
+    "pass": 2,
+    "question": 10,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "imponerande"
+  },
+  {
+    "word": "olidlig",
+    "options": [
+      "osannolik",
+      "svår att förstå",
+      "oanständig",
+      "omöjlig att uthärda"
+    ],
+    "correct": 3,
+    "exam": "2025-04-05",
+    "pass": 4,
+    "question": 1,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "bekymmerslös"
+  },
+  {
+    "word": "återstoden",
+    "options": [
+      "slutet",
+      "resten",
+      "minnet",
+      "svaret"
+    ],
+    "correct": 1,
+    "exam": "2025-04-05",
+    "pass": 4,
+    "question": 2,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "reprisen"
+  },
+  {
+    "word": "klandervärt",
+    "options": [
+      "välgörande",
+      "oskyldigt",
+      "förkastligt",
+      "otänkbart"
+    ],
+    "correct": 2,
+    "exam": "2025-04-05",
+    "pass": 4,
+    "question": 3,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "förvånande"
+  },
+  {
+    "word": "intervention",
+    "options": [
+      "avbrott",
+      "stödfunktion",
+      "ingripande",
+      "förmedling"
+    ],
+    "correct": 2,
+    "exam": "2025-04-05",
+    "pass": 4,
+    "question": 4,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "inaktivitet"
+  },
+  {
+    "word": "bistå",
+    "options": [
+      "vakta",
+      "hålla ihop",
+      "närvara",
+      "hjälpa"
+    ],
+    "correct": 3,
+    "exam": "2025-04-05",
+    "pass": 4,
+    "question": 5,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "stanna kvar"
+  },
+  {
+    "word": "parafras",
+    "options": [
+      "omskrivning",
+      "inledning",
+      "förkortning",
+      "överläggning"
+    ],
+    "correct": 0,
+    "exam": "2025-04-05",
+    "pass": 4,
+    "question": 6,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "utvidgning"
+  },
+  {
+    "word": "gedigen",
+    "options": [
+      "solid",
+      "konkret",
+      "effektiv",
+      "realistisk"
+    ],
+    "correct": 0,
+    "exam": "2025-04-05",
+    "pass": 4,
+    "question": 7,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "uppskattad"
+  },
+  {
+    "word": "hålla till godo med",
+    "options": [
+      "samtycka till",
+      "nöja sig med",
+      "förvänta sig",
+      "roa sig med"
+    ],
+    "correct": 1,
+    "exam": "2025-04-05",
+    "pass": 4,
+    "question": 8,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "ge tillstånd till"
+  },
+  {
+    "word": "vånda",
+    "options": [
+      "ångest",
+      "avsmak",
+      "uppgivenhet",
+      "saknad"
+    ],
+    "correct": 0,
+    "exam": "2025-04-05",
+    "pass": 4,
+    "question": 9,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "ansträngning"
+  },
+  {
+    "word": "fingerad",
+    "options": [
+      "fastställd",
+      "praktisk",
+      "berörd",
+      "påhittad"
+    ],
+    "correct": 3,
+    "exam": "2025-04-05",
+    "pass": 4,
+    "question": 10,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "reserverad"
+  },
+  {
+    "word": "hysa agg",
+    "options": [
+      "vara spydig",
+      "kritisera",
+      "vara fientligt inställd",
+      "irritera"
+    ],
+    "correct": 2,
+    "exam": "2024-10-20",
+    "pass": 3,
+    "question": 1,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "göra någon illa"
+  },
+  {
+    "word": "kontinuum",
+    "options": [
+      "upplösning",
+      "evigt liv",
+      "motsatsförhållande",
+      "obruten följd"
+    ],
+    "correct": 3,
+    "exam": "2024-10-20",
+    "pass": 3,
+    "question": 2,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "förlängning"
+  },
+  {
+    "word": "vimmelkantig",
+    "options": [
+      "yr",
+      "trött",
+      "osäker",
+      "klumpig"
+    ],
+    "correct": 0,
+    "exam": "2024-10-20",
+    "pass": 3,
+    "question": 3,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "hjälplös"
+  },
+  {
+    "word": "krill",
+    "options": [
+      "korall",
+      "sjögräs",
+      "parasit",
+      "kräftdjur"
+    ],
+    "correct": 3,
+    "exam": "2024-10-20",
+    "pass": 3,
+    "question": 4,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "grodyngel"
+  },
+  {
+    "word": "restriktiv",
+    "options": [
+      "bestämd",
+      "ordentlig",
+      "påfrestande",
+      "återhållsam"
+    ],
+    "correct": 3,
+    "exam": "2024-10-20",
+    "pass": 3,
+    "question": 5,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "motvillig"
+  },
+  {
+    "word": "särdrag",
+    "options": [
+      "avvikande åsikt",
+      "skiljelinje",
+      "klokt agerande",
+      "utmärkande egenskap"
+    ],
+    "correct": 3,
+    "exam": "2024-10-20",
+    "pass": 3,
+    "question": 6,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "diskriminering"
+  },
+  {
+    "word": "empati",
+    "options": [
+      "hjälpsamhet",
+      "uppskattning",
+      "tillgivenhet",
+      "inlevelseförmåga"
+    ],
+    "correct": 3,
+    "exam": "2024-10-20",
+    "pass": 3,
+    "question": 8,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "ömsesidighet"
+  },
+  {
+    "word": "bordlägga",
+    "options": [
+      "tilltala",
+      "intyga",
+      "motstå",
+      "uppskjuta"
+    ],
+    "correct": 3,
+    "exam": "2024-10-20",
+    "pass": 3,
+    "question": 9,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "förevisa"
+  },
+  {
+    "word": "taktfull",
+    "options": [
+      "snabb",
+      "högljudd",
+      "finkänslig",
+      "noggrann"
+    ],
+    "correct": 2,
+    "exam": "2024-10-20",
+    "pass": 3,
+    "question": 10,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "uthållig"
+  },
+  {
+    "word": "haverera",
+    "options": [
+      "ge sig",
+      "ta med sig",
+      "dra ut på tiden",
+      "gå sönder"
+    ],
+    "correct": 3,
+    "exam": "2024-10-20",
+    "pass": 5,
+    "question": 1,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "jämnas ut"
+  },
+  {
+    "word": "bestående",
+    "options": [
+      "fullständig",
+      "principfast",
+      "ordinarie",
+      "permanent"
+    ],
+    "correct": 3,
+    "exam": "2024-10-20",
+    "pass": 5,
+    "question": 2,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "trovärdig"
+  },
+  {
+    "word": "handräckning",
+    "options": [
+      "hjälp",
+      "ansträngning",
+      "medgivande",
+      "hänvisning"
+    ],
+    "correct": 0,
+    "exam": "2024-10-20",
+    "pass": 5,
+    "question": 3,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "tröst"
+  },
+  {
+    "word": "sank",
+    "options": [
+      "stenig",
+      "gropig",
+      "sumpig",
+      "halkig"
+    ],
+    "correct": 2,
+    "exam": "2024-10-20",
+    "pass": 5,
+    "question": 4,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "risig"
+  },
+  {
+    "word": "mothugg",
+    "options": [
+      "svårighet",
+      "häftig kritik",
+      "misslyckande",
+      "spontan reflex"
+    ],
+    "correct": 1,
+    "exam": "2024-10-20",
+    "pass": 5,
+    "question": 5,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "förräderi"
+  },
+  {
+    "word": "händelsevis",
+    "options": [
+      "helt plötsligt",
+      "upprepade gånger",
+      "i tur och ordning",
+      "av en tillfällighet"
+    ],
+    "correct": 3,
+    "exam": "2024-10-20",
+    "pass": 5,
+    "question": 6,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "då och då"
+  },
+  {
+    "word": "spänst",
+    "options": [
+      "uthållighet",
+      "styrka och smidighet",
+      "följsamhet",
+      "balans och kontroll"
+    ],
+    "correct": 1,
+    "exam": "2024-10-20",
+    "pass": 5,
+    "question": 7,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "snabbhet"
+  },
+  {
+    "word": "porös",
+    "options": [
+      "uttorkad",
+      "innehållslös",
+      "kompakt",
+      "genomsläpplig"
+    ],
+    "correct": 3,
+    "exam": "2024-10-20",
+    "pass": 5,
+    "question": 8,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "fjädrande"
+  },
+  {
+    "word": "soliditet",
+    "options": [
+      "god hälsa",
+      "rationell lösning",
+      "orsakssamband",
+      "finansiell stabilitet"
+    ],
+    "correct": 3,
+    "exam": "2024-10-20",
+    "pass": 5,
+    "question": 9,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "styrkedemonstration"
+  },
+  {
+    "word": "förlora målföret",
+    "options": [
+      "ge upp",
+      "bli stum",
+      "gå vilse",
+      "hamna efter"
+    ],
+    "correct": 1,
+    "exam": "2024-10-20",
+    "pass": 5,
+    "question": 10,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "mista förståndet"
+  },
+  {
+    "word": "dispyt",
+    "options": [
+      "brist",
+      "gräl",
+      "tvekan",
+      "besvikelse"
+    ],
+    "correct": 1,
+    "exam": "2024-04-13",
+    "pass": 1,
+    "question": 1,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "undantag"
+  },
+  {
+    "word": "angeläget",
+    "options": [
+      "tydligt",
+      "utmanande",
+      "informativt",
+      "viktigt"
+    ],
+    "correct": 3,
+    "exam": "2024-04-13",
+    "pass": 1,
+    "question": 2,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "noggrant"
+  },
+  {
+    "word": "supplement",
+    "options": [
+      "överskott",
+      "urval",
+      "innehåll",
+      "tillägg"
+    ],
+    "correct": 3,
+    "exam": "2024-04-13",
+    "pass": 1,
+    "question": 3,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "understöd"
+  },
+  {
+    "word": "aktad",
+    "options": [
+      "respekterad",
+      "högtidlig",
+      "artig",
+      "försiktig"
+    ],
+    "correct": 0,
+    "exam": "2024-04-13",
+    "pass": 1,
+    "question": 4,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "undanskymd"
+  },
+  {
+    "word": "rata",
+    "options": [
+      "granska",
+      "avvisa",
+      "fastställa",
+      "ifrågasätta"
+    ],
+    "correct": 1,
+    "exam": "2024-04-13",
+    "pass": 1,
+    "question": 5,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "samordna"
+  },
+  {
+    "word": "illa åtgången",
+    "options": [
+      "helt uttorkad",
+      "nästan slut",
+      "mycket ledsen",
+      "svårt angripen"
+    ],
+    "correct": 3,
+    "exam": "2024-04-13",
+    "pass": 1,
+    "question": 6,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "lämnad utanför"
+  },
+  {
+    "word": "bärkraft",
+    "options": [
+      "avlagring",
+      "prestation",
+      "tryck",
+      "hållbarhet"
+    ],
+    "correct": 3,
+    "exam": "2024-04-13",
+    "pass": 1,
+    "question": 7,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "försörjning"
+  },
+  {
+    "word": "vegetera",
+    "options": [
+      "tala gåtfullt",
+      "vara generös",
+      "leva i overksamhet",
+      "besvära i onödan"
+    ],
+    "correct": 2,
+    "exam": "2024-04-13",
+    "pass": 1,
+    "question": 8,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "sprida oro"
+  },
+  {
+    "word": "egalitär",
+    "options": [
+      "jämlik",
+      "tillfällig",
+      "obekymrad",
+      "välvillig"
+    ],
+    "correct": 0,
+    "exam": "2024-04-13",
+    "pass": 1,
+    "question": 9,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "ursprunglig"
+  },
+  {
+    "word": "kavalkad",
+    "options": [
+      "kort historia",
+      "utvald grupp",
+      "lång rad",
+      "tapper skara"
+    ],
+    "correct": 2,
+    "exam": "2024-04-13",
+    "pass": 1,
+    "question": 10,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "begränsad mängd"
+  },
+  {
+    "word": "försegla",
+    "options": [
+      "upphöra",
+      "tillsluta",
+      "undersöka",
+      "avgöra"
+    ],
+    "correct": 1,
+    "exam": "2024-04-13",
+    "pass": 4,
+    "question": 1,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "omringa"
+  },
+  {
+    "word": "autodidakt",
+    "options": [
+      "pålitlig person",
+      "mäktig person",
+      "egoistisk person",
+      "självlärd person"
+    ],
+    "correct": 3,
+    "exam": "2024-04-13",
+    "pass": 4,
+    "question": 2,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "inbunden person"
+  },
+  {
+    "word": "gentemot",
+    "options": [
+      "nära intill",
+      "bortsett från",
+      "som alternativ till",
+      "i förhållande till"
+    ],
+    "correct": 3,
+    "exam": "2024-04-13",
+    "pass": 4,
+    "question": 3,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "med tanke på"
+  },
+  {
+    "word": "utarmad",
+    "options": [
+      "fri",
+      "farlig",
+      "förlamad",
+      "fattig"
+    ],
+    "correct": 3,
+    "exam": "2024-04-13",
+    "pass": 4,
+    "question": 4,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "feg"
+  },
+  {
+    "word": "axplock",
+    "options": [
+      "slumpartat urval",
+      "enformigt arbete",
+      "förstahandsval",
+      "kvalificerad gissning"
+    ],
+    "correct": 0,
+    "exam": "2024-04-13",
+    "pass": 4,
+    "question": 5,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "stor noggrannhet"
+  },
+  {
+    "word": "exceptionell",
+    "options": [
+      "nyanserad",
+      "högtidlig",
+      "sällsynt",
+      "överdriven"
+    ],
+    "correct": 2,
+    "exam": "2024-04-13",
+    "pass": 4,
+    "question": 6,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "uttrycksfull"
+  },
+  {
+    "word": "tillkännage",
+    "options": [
+      "anropa",
+      "meddela",
+      "besvara",
+      "instämma"
+    ],
+    "correct": 1,
+    "exam": "2024-04-13",
+    "pass": 4,
+    "question": 7,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "efterfråga"
+  },
+  {
+    "word": "appell",
+    "options": [
+      "löfte",
+      "misstanke",
+      "vädjan",
+      "övertygelse"
+    ],
+    "correct": 2,
+    "exam": "2024-04-13",
+    "pass": 4,
+    "question": 8,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "intryck"
+  },
+  {
+    "word": "intrikat",
+    "options": [
+      "invecklad",
+      "intensiv",
+      "inställsam",
+      "intressant"
+    ],
+    "correct": 0,
+    "exam": "2024-04-13",
+    "pass": 4,
+    "question": 9,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "inåtvänd"
+  },
+  {
+    "word": "debacle",
+    "options": [
+      "klarhet",
+      "omröstning",
+      "misslyckande",
+      "tillfällighet"
+    ],
+    "correct": 2,
+    "exam": "2024-04-13",
+    "pass": 4,
+    "question": 10,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "förbättring"
+  },
+  {
+    "word": "lägga band på sig",
+    "options": [
+      "ändra sig",
+      "behärska sig",
+      "koncentrera sig",
+      "bestämma sig"
+    ],
+    "correct": 1,
+    "exam": "2025-10-19",
+    "pass": 3,
+    "question": 1,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "förbättra sig"
+  },
+  {
+    "word": "offert",
+    "options": [
+      "faktura",
+      "affärsplan",
+      "beställning",
+      "kostnadsförslag"
+    ],
+    "correct": 3,
+    "exam": "2025-10-19",
+    "pass": 3,
+    "question": 2,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "orderbekräftelse"
+  },
+  {
+    "word": "proportionerlig",
+    "options": [
+      "relativt stor",
+      "felfri",
+      "noga genomtänkt",
+      "väl avpassad"
+    ],
+    "correct": 3,
+    "exam": "2025-10-19",
+    "pass": 3,
+    "question": 3,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "neutral"
+  },
+  {
+    "word": "hektar",
+    "options": [
+      "ytmått",
+      "viktenhet",
+      "tyngdpunkt",
+      "längdmått"
+    ],
+    "correct": 0,
+    "exam": "2025-10-19",
+    "pass": 3,
+    "question": 4,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "volymenhet"
+  },
+  {
+    "word": "sedermera",
+    "options": [
+      "på en gång",
+      "då och då",
+      "när som helst",
+      "så småningom"
+    ],
+    "correct": 3,
+    "exam": "2025-10-19",
+    "pass": 3,
+    "question": 5,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "för länge sedan"
+  },
+  {
+    "word": "snarstucken",
+    "options": [
+      "svårfångad",
+      "oansvarig",
+      "lättstött",
+      "oförsiktig"
+    ],
+    "correct": 2,
+    "exam": "2025-10-19",
+    "pass": 3,
+    "question": 7,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "snabbtänkt"
+  },
+  {
+    "word": "maskopi",
+    "options": [
+      "hemligt samförstånd",
+      "oväntat bakslag",
+      "pinsamt misslyckande",
+      "falsk identitet"
+    ],
+    "correct": 0,
+    "exam": "2025-10-19",
+    "pass": 3,
+    "question": 8,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "underjordisk rörelse"
+  },
+  {
+    "word": "perforera",
+    "options": [
+      "snygga till",
+      "visa upp",
+      "sätta fast",
+      "göra hål i"
+    ],
+    "correct": 3,
+    "exam": "2025-10-19",
+    "pass": 3,
+    "question": 9,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "vika ihop"
+  },
+  {
+    "word": "eterisk",
+    "options": [
+      "giftig",
+      "flyktig",
+      "explosiv",
+      "frätande"
+    ],
+    "correct": 1,
+    "exam": "2025-10-19",
+    "pass": 3,
+    "question": 10,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "trögflytande"
+  },
+  {
+    "word": "hereditär",
+    "options": [
+      "smittsam",
+      "ärftlig",
+      "långvarig",
+      "inbillad"
+    ],
+    "correct": 1,
+    "exam": "2025-10-19",
+    "pass": 5,
+    "question": 1,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "allvarlig"
+  },
+  {
+    "word": "underrätta",
+    "options": [
+      "stötta",
+      "tona ner",
+      "informera",
+      "läxa upp"
+    ],
+    "correct": 2,
+    "exam": "2025-10-19",
+    "pass": 5,
+    "question": 2,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "förolämpa"
+  },
+  {
+    "word": "huskur",
+    "options": [
+      "fönsternisch",
+      "helrenovering",
+      "spontan hyllning",
+      "folklig behandlingsmetod"
+    ],
+    "correct": 3,
+    "exam": "2025-10-19",
+    "pass": 5,
+    "question": 3,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "invigningsfest"
+  },
+  {
+    "word": "trångsynt",
+    "options": [
+      "glömsk",
+      "pessimistisk",
+      "ouppmärksam",
+      "fördomsfull"
+    ],
+    "correct": 3,
+    "exam": "2025-10-19",
+    "pass": 5,
+    "question": 4,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "kritisk"
+  },
+  {
+    "word": "möda",
+    "options": [
+      "tvång",
+      "stress",
+      "motgång",
+      "ansträngning"
+    ],
+    "correct": 3,
+    "exam": "2025-10-19",
+    "pass": 5,
+    "question": 5,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "tröghet"
+  },
+  {
+    "word": "frekventera",
+    "options": [
+      "besöka ofta",
+      "variera",
+      "justera noga",
+      "gradera"
+    ],
+    "correct": 0,
+    "exam": "2025-10-19",
+    "pass": 5,
+    "question": 6,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "hålla koll på"
+  },
+  {
+    "word": "raffinemang",
+    "options": [
+      "överflöd",
+      "urskiljning",
+      "komplikation",
+      "förfining"
+    ],
+    "correct": 3,
+    "exam": "2025-10-19",
+    "pass": 5,
+    "question": 7,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "uppskattning"
+  },
+  {
+    "word": "i paritet med",
+    "options": [
+      "med hänsyn till",
+      "samtidig med",
+      "medskyldig till",
+      "likvärdig med"
+    ],
+    "correct": 3,
+    "exam": "2025-10-19",
+    "pass": 5,
+    "question": 8,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "med hjälp av"
+  },
+  {
+    "word": "gondol",
+    "options": [
+      "mur",
+      "kärra",
+      "torn",
+      "båt"
+    ],
+    "correct": 3,
+    "exam": "2025-10-19",
+    "pass": 5,
+    "question": 9,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "kruka"
+  },
+  {
+    "word": "obemedlad",
+    "options": [
+      "hemlös",
+      "fattig",
+      "arbetslös",
+      "ensam"
+    ],
+    "correct": 1,
+    "exam": "2025-10-19",
+    "pass": 5,
+    "question": 10,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "tanklös"
+  },
+  {
+    "word": "prognos",
+    "options": [
+      "besked",
+      "utvärdering",
+      "sammanfattning",
+      "förutsägelse"
+    ],
+    "correct": 3,
+    "exam": "2026-04-18",
+    "pass": 2,
+    "question": 1,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "redovisning"
+  },
+  {
+    "word": "slug",
+    "options": [
+      "ivrig",
+      "otäck",
+      "girig",
+      "listig"
+    ],
+    "correct": 3,
+    "exam": "2026-04-18",
+    "pass": 2,
+    "question": 2,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "envis"
+  },
+  {
+    "word": "eftertrakta",
+    "options": [
+      "ta reda på",
+      "följa efter",
+      "härma",
+      "vilja ha"
+    ],
+    "correct": 3,
+    "exam": "2026-04-18",
+    "pass": 2,
+    "question": 3,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "fundera på"
+  },
+  {
+    "word": "potential",
+    "options": [
+      "stor skicklighet",
+      "inneboende möjligheter",
+      "sannolikt resultat",
+      "betydande framgångar"
+    ],
+    "correct": 1,
+    "exam": "2026-04-18",
+    "pass": 2,
+    "question": 4,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "starka förhoppningar"
+  },
+  {
+    "word": "utomordentlig",
+    "options": [
+      "märklig",
+      "förhastad",
+      "oavsiktlig",
+      "förträfflig"
+    ],
+    "correct": 3,
+    "exam": "2026-04-18",
+    "pass": 2,
+    "question": 5,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "noggrann"
+  },
+  {
+    "word": "plombering",
+    "options": [
+      "avskärmning",
+      "omledning",
+      "försegling",
+      "urgröpning"
+    ],
+    "correct": 2,
+    "exam": "2026-04-18",
+    "pass": 2,
+    "question": 6,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "återställning"
+  },
+  {
+    "word": "miserabel",
+    "options": [
+      "eländig",
+      "vilsen",
+      "bitter",
+      "plågsam"
+    ],
+    "correct": 0,
+    "exam": "2026-04-18",
+    "pass": 2,
+    "question": 7,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "otrevlig"
+  },
+  {
+    "word": "ingalunda",
+    "options": [
+      "inte alls",
+      "i onödan",
+      "undantagsvis",
+      "otillräckligt"
+    ],
+    "correct": 0,
+    "exam": "2026-04-18",
+    "pass": 2,
+    "question": 9,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "ingenstans"
+  },
+  {
+    "word": "erinra sig",
+    "options": [
+      "undersöka",
+      "minnas",
+      "lugna sig",
+      "avvakta"
+    ],
+    "correct": 1,
+    "exam": "2026-04-18",
+    "pass": 2,
+    "question": 10,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "invänta"
+  },
+  {
+    "word": "diffus",
+    "options": [
+      "underlig",
+      "avskild",
+      "oklar",
+      "tudelad"
+    ],
+    "correct": 2,
+    "exam": "2026-04-18",
+    "pass": 4,
+    "question": 2,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "skiftande"
+  },
+  {
+    "word": "upprätthålla",
+    "options": [
+      "ge styrka åt",
+      "ta upp någons tid",
+      "ligga till grund för",
+      "bevara på en viss nivå"
+    ],
+    "correct": 3,
+    "exam": "2026-04-18",
+    "pass": 4,
+    "question": 3,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "visa upp en snygg fasad"
+  },
+  {
+    "word": "välvillig",
+    "options": [
+      "fast besluten",
+      "pålitlig",
+      "optimistisk",
+      "sympatiskt inställd"
+    ],
+    "correct": 3,
+    "exam": "2026-04-18",
+    "pass": 4,
+    "question": 4,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "följsam"
+  },
+  {
+    "word": "unikum",
+    "options": [
+      "något som är evigt",
+      "något som är ensamt i sitt slag",
+      "något som är dyrbart",
+      "något som är i ständig förändring"
+    ],
+    "correct": 1,
+    "exam": "2026-04-18",
+    "pass": 4,
+    "question": 5,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "något som är väl känt"
+  },
+  {
+    "word": "för egen maskin",
+    "options": [
+      "med kraft",
+      "frivilligt",
+      "utan hjälp",
+      "själviskt"
+    ],
+    "correct": 2,
+    "exam": "2026-04-18",
+    "pass": 4,
+    "question": 6,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "på rutin"
+  },
+  {
+    "word": "utsikter",
+    "options": [
+      "möjligheter",
+      "upplevelser",
+      "önskemål",
+      "föreställningar"
+    ],
+    "correct": 0,
+    "exam": "2026-04-18",
+    "pass": 4,
+    "question": 7,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "synpunkter"
+  },
+  {
+    "word": "kröna",
+    "options": [
+      "besegra",
+      "omforma",
+      "inhägna",
+      "fullända"
+    ],
+    "correct": 3,
+    "exam": "2026-04-18",
+    "pass": 4,
+    "question": 8,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "överskrida"
+  },
+  {
+    "word": "banal",
+    "options": [
+      "nördig",
+      "typisk",
+      "alldaglig",
+      "obildad"
+    ],
+    "correct": 2,
+    "exam": "2026-04-18",
+    "pass": 4,
+    "question": 9,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "klumpig"
+  },
+  {
+    "word": "hjärtefråga",
+    "options": [
+      "känslig fråga",
+      "angelägen fråga",
+      "evig fråga",
+      "närgången fråga"
+    ],
+    "correct": 1,
+    "exam": "2026-04-18",
+    "pass": 4,
+    "question": 10,
+    "source": "Högskoleprovet (UHR/Studera.nu)",
+    "removedOfficialAlternative": "spontan fråga"
   }
 ]
