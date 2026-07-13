@@ -115,10 +115,9 @@ function chooseAnswer(button, isCorrect) {
     state.correct++;
     state.streak++;
     state.bestStreak = Math.max(state.bestStreak, state.streak);
-    const multiplier = state.streak >= 10 ? 2 : state.streak >= 5 ? 1.5 : 1;
-    state.score += Math.round(100 * multiplier);
+    state.score += 100;
     button.classList.add('correct');
-    el('feedback').textContent = `Rätt! +${Math.round(100 * multiplier)} poäng`;
+    el('feedback').textContent = 'Rätt! +100 poäng';
   } else {
     state.wrong++;
     state.lives--;
