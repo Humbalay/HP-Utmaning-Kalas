@@ -50,7 +50,7 @@ async function loadQuestions() {
 function resetGame() {
   clearInterval(state.timerId);
   Object.assign(state, {
-    pool: shuffle(state.questions),
+    pool: [],
     current: null,
     score: 0,
     lives: 3,
@@ -76,13 +76,83 @@ function updateHud() {
   el('time-bar').style.width = `${Math.max(0, state.timeLeft / 60 * 100)}%`;
 }
 
+
+const QUESTION_DECK_KEY = 'hpOrdQuestionDeckV1';
+const RECENT_QUESTIONS_KEY = 'hpOrdRecentQuestionsV1';
+const RECENT_BUFFER_SIZE = 50;
+
+function questionId(question) {
+  if (question.id) return String(question.id);
+  return [
+    question.word,
+    question.exam || '',
+    question.pass || '',
+    question.question || '',
+    question.source || ''
+  ].join('|').toLocaleLowerCase('sv-SE');
+}
+
+function readStoredArray(key) {
+  try {
+    const value = JSON.parse(localStorage.getItem(key) || '[]');
+    return Array.isArray(value) ? value : [];
+  } catch {
+    return [];
+  }
+}
+
+function createFreshDeck() {
+  const recent = new Set(readStoredArray(RECENT_QUESTIONS_KEY));
+  const allIds = state.questions.map(questionId);
+  const notRecent = shuffle(allIds.filter(id => !recent.has(id)));
+  const recentlySeen = shuffle(allIds.filter(id => recent.has(id)));
+  return [...notRecent, ...recentlySeen];
+}
+
+function getQuestionDeck() {
+  const validIds = new Set(state.questions.map(questionId));
+  let deck = readStoredArray(QUESTION_DECK_KEY).filter(id => validIds.has(id));
+
+  // If questions were added since the last visit, insert all new IDs into the
+  // remaining deck in random positions instead of waiting for the next cycle.
+  const inDeck = new Set(deck);
+  const recent = new Set(readStoredArray(RECENT_QUESTIONS_KEY));
+  const missingIds = state.questions
+    .map(questionId)
+    .filter(id => !inDeck.has(id) && !recent.has(id));
+
+  for (const id of shuffle(missingIds)) {
+    const position = Math.floor(Math.random() * (deck.length + 1));
+    deck.splice(position, 0, id);
+  }
+
+  if (deck.length === 0) deck = createFreshDeck();
+  localStorage.setItem(QUESTION_DECK_KEY, JSON.stringify(deck));
+  return deck;
+}
+
+function drawPersistentQuestion() {
+  let deck = getQuestionDeck();
+  const id = deck.shift();
+  localStorage.setItem(QUESTION_DECK_KEY, JSON.stringify(deck));
+
+  const recent = readStoredArray(RECENT_QUESTIONS_KEY);
+  recent.push(id);
+  localStorage.setItem(
+    RECENT_QUESTIONS_KEY,
+    JSON.stringify(recent.slice(-RECENT_BUFFER_SIZE))
+  );
+
+  return state.questions.find(question => questionId(question) === id) || null;
+}
+
 function nextQuestion() {
   if (state.timeLeft <= 0 || state.lives <= 0) return endGame();
   state.locked = false;
   el('feedback').textContent = '';
 
-  if (state.pool.length === 0) state.pool = shuffle(state.questions);
-  state.current = state.pool.pop();
+  state.current = drawPersistentQuestion();
+  if (!state.current) return endGame();
 
   el('word').textContent = state.current.word;
   const answerBox = el('answers');
