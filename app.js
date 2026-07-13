@@ -168,7 +168,18 @@ function nextQuestion() {
   shuffledOptions.forEach((option, index) => {
     const button = document.createElement('button');
     button.className = 'answer';
-    button.textContent = `${String.fromCharCode(65 + index)}. ${option.text}`;
+    button.dataset.answerNumber = String(index + 1);
+
+    const answerText = document.createElement('span');
+    answerText.className = 'answer-text';
+    answerText.textContent = `${String.fromCharCode(65 + index)}. ${option.text}`;
+
+    const shortcut = document.createElement('span');
+    shortcut.className = 'answer-shortcut';
+    shortcut.textContent = `(${index + 1})`;
+    shortcut.setAttribute('aria-hidden', 'true');
+
+    button.append(answerText, shortcut);
     button.addEventListener('click', () => chooseAnswer(button, option.isCorrect));
     answerBox.appendChild(button);
   });
@@ -467,6 +478,25 @@ function endGame() {
 
   showScreen('result');
 }
+
+document.addEventListener('keydown', event => {
+  if (!screens.game.classList.contains('active') || state.locked) return;
+  if (event.ctrlKey || event.metaKey || event.altKey) return;
+
+  const activeTag = document.activeElement?.tagName;
+  if (activeTag === 'INPUT' || activeTag === 'TEXTAREA') return;
+
+  const number = Number(event.key);
+  if (!Number.isInteger(number) || number < 1 || number > 4) return;
+
+  const button = document.querySelector(
+    `.answer[data-answer-number="${number}"]:not(:disabled)`
+  );
+  if (!button) return;
+
+  event.preventDefault();
+  button.click();
+});
 
 el('start-btn').addEventListener('click', startGame);
 el('restart-btn').addEventListener('click', startGame);

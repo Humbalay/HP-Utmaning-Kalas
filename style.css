@@ -358,3 +358,20 @@ h1 { font-size: clamp(2.2rem, 7vw, 4rem); margin: 10px 0 12px; line-height: 1; }
   gap: 10px;
   margin-top: 16px;
 }
+
+.answer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.answer-text {
+  min-width: 0;
+}
+
+.answer-shortcut {
+  flex: 0 0 auto;
+  color: #6a7385;
+  font-weight: 800;
+}
