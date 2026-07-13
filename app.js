@@ -17,7 +17,7 @@ const state = {
   wrong: 0,
   streak: 0,
   bestStreak: 0,
-  timeLeft: 90,
+  timeLeft: 60,
   timerId: null,
   locked: false,
   latestResult: null,
@@ -58,7 +58,7 @@ function resetGame() {
     wrong: 0,
     streak: 0,
     bestStreak: 0,
-    timeLeft: 90,
+    timeLeft: 60,
     timerId: null,
     locked: false,
     latestResult: null,
@@ -73,7 +73,7 @@ function updateHud() {
   el('lives').textContent = '❤️'.repeat(state.lives) || '—';
   el('streak').textContent = state.streak;
   el('correct-count').textContent = state.correct;
-  el('time-bar').style.width = `${Math.max(0, state.timeLeft / 90 * 100)}%`;
+  el('time-bar').style.width = `${Math.max(0, state.timeLeft / 60 * 100)}%`;
 }
 
 function nextQuestion() {
