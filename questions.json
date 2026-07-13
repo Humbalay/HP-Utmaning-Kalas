@@ -1,0 +1,202 @@
+[
+  {
+    "word": "abdikera",
+    "options": [
+      "avgå från en hög position",
+      "förklara i detalj",
+      "försvara någon",
+      "samarbeta motvilligt"
+    ],
+    "correct": 0
+  },
+  {
+    "word": "ambivalent",
+    "options": [
+      "mycket beslutsam",
+      "kluven mellan olika känslor",
+      "helt oberörd",
+      "ovanligt optimistisk"
+    ],
+    "correct": 1
+  },
+  {
+    "word": "lakonisk",
+    "options": [
+      "kortfattad",
+      "överdrivet vänlig",
+      "mycket högljudd",
+      "svår att förstå"
+    ],
+    "correct": 0
+  },
+  {
+    "word": "prekär",
+    "options": [
+      "stabil och trygg",
+      "osäker eller bekymmersam",
+      "dyrbar och exklusiv",
+      "gammaldags"
+    ],
+    "correct": 1
+  },
+  {
+    "word": "redundant",
+    "options": [
+      "överflödig",
+      "nödvändig",
+      "ovanlig",
+      "tillfällig"
+    ],
+    "correct": 0
+  },
+  {
+    "word": "implicit",
+    "options": [
+      "uttalad direkt",
+      "underförstådd",
+      "felaktig",
+      "oföränderlig"
+    ],
+    "correct": 1
+  },
+  {
+    "word": "pragmatisk",
+    "options": [
+      "praktiskt inriktad",
+      "mycket känslosam",
+      "helt teoretisk",
+      "motvillig"
+    ],
+    "correct": 0
+  },
+  {
+    "word": "subtil",
+    "options": [
+      "finstämd eller svår att upptäcka",
+      "uppenbar och högljudd",
+      "snabb och kraftfull",
+      "slumpmässig"
+    ],
+    "correct": 0
+  },
+  {
+    "word": "resolut",
+    "options": [
+      "tveksam",
+      "beslutsam",
+      "förvirrad",
+      "likgiltig"
+    ],
+    "correct": 1
+  },
+  {
+    "word": "inadekvat",
+    "options": [
+      "otillräcklig eller olämplig",
+      "mycket tydlig",
+      "noggrant planerad",
+      "ovanligt dyr"
+    ],
+    "correct": 0
+  },
+  {
+    "word": "koncis",
+    "options": [
+      "kort och kärnfull",
+      "långrandig",
+      "svårbegriplig",
+      "känslosam"
+    ],
+    "correct": 0
+  },
+  {
+    "word": "plausibel",
+    "options": [
+      "trovärdig eller rimlig",
+      "helt omöjlig",
+      "ointressant",
+      "farlig"
+    ],
+    "correct": 0
+  },
+  {
+    "word": "försumbar",
+    "options": [
+      "så liten att den knappt spelar roll",
+      "mycket viktig",
+      "svår att mäta",
+      "omöjlig att förutse"
+    ],
+    "correct": 0
+  },
+  {
+    "word": "dogmatisk",
+    "options": [
+      "strängt bunden till fasta läror",
+      "öppen för alla idéer",
+      "humoristisk",
+      "praktiskt lagd"
+    ],
+    "correct": 0
+  },
+  {
+    "word": "retorisk",
+    "options": [
+      "som rör talekonst eller övertygande språk",
+      "som handlar om siffror",
+      "som är juridiskt bindande",
+      "som saknar betydelse"
+    ],
+    "correct": 0
+  },
+  {
+    "word": "arbiträr",
+    "options": [
+      "godtycklig",
+      "noggrant bevisad",
+      "enhetlig",
+      "rättvis"
+    ],
+    "correct": 0
+  },
+  {
+    "word": "desillusionerad",
+    "options": [
+      "besviken efter att ha förlorat sina illusioner",
+      "mycket inspirerad",
+      "helt ovetande",
+      "ovanligt lugn"
+    ],
+    "correct": 0
+  },
+  {
+    "word": "förtegen",
+    "options": [
+      "ovillig att tala öppet",
+      "mycket pratsam",
+      "lättirriterad",
+      "pålitlig"
+    ],
+    "correct": 0
+  },
+  {
+    "word": "frapperande",
+    "options": [
+      "påfallande eller slående",
+      "obetydlig",
+      "föråldrad",
+      "oavsiktlig"
+    ],
+    "correct": 0
+  },
+  {
+    "word": "vederhäftig",
+    "options": [
+      "tillförlitlig och saklig",
+      "aggressiv",
+      "osammanhängande",
+      "överdrivet enkel"
+    ],
+    "correct": 0
+  }
+]

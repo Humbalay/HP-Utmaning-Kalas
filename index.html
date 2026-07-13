@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HP-Ord utmaning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section id="start-screen" class="screen card active">
+      <button id="edit-scores-btn" class="edit-scores-button">Edit</button>
+      <div class="badge">Högskoleprovet-inspirerat</div>
+      <h1>HP-Ord utmaning</h1>
+      <p class="lead">Svara på så många ord som möjligt på 60 sekunder. Du har tre liv.</p>
+      <div class="rules">
+        <div><strong>90</strong><span>sekunder</span></div>
+        <div><strong>3</strong><span>liv</span></div>
+        <div><strong>4</strong><span>alternativ</span></div>
+      </div>
+      <button id="start-btn" class="primary">Starta utmaning</button>
+
+      <div class="leaderboard start-leaderboard">
+        <div class="leaderboard-header">
+          <h2>Lokala topplistan</h2>
+          <button id="reset-scores-start-btn" class="danger-text-button hidden">Nollställ alla</button>
+        </div>
+        <ol id="start-leaderboard-list"></ol>
+      </div>
+    </section>
+
+    <section id="game-screen" class="screen card">
+      <header class="game-header">
+        <button id="exit-btn" class="icon-button" aria-label="Avsluta utmaning" title="Avsluta utmaning">←</button>
+        <div><span class="label">Tid</span><strong id="timer">90</strong></div>
+        <div><span class="label">Poäng</span><strong id="score">0</strong></div>
+        <div><span class="label">Liv</span><strong id="lives" aria-label="3 liv">❤️❤️❤️</strong></div>
+      </header>
+
+      <div class="progress"><div id="time-bar"></div></div>
+
+      <div class="question-wrap">
+        <p class="eyebrow">Vad betyder ordet?</p>
+        <h2 id="word">—</h2>
+        <div id="answers" class="answers"></div>
+        <p id="feedback" class="feedback" aria-live="polite"></p>
+      </div>
+
+      <footer class="game-footer">
+        <span>Streak: <strong id="streak">0</strong></span>
+        <span>Rätt: <strong id="correct-count">0</strong></span>
+      </footer>
+    </section>
+
+    <section id="result-screen" class="screen card result-card">
+      <div class="result-layout">
+        <div class="result-main">
+          <div class="result-topbar">
+            <button id="result-back-btn" class="icon-button" aria-label="Till startsidan" title="Till startsidan">←</button>
+            <div class="badge">Resultat</div>
+          </div>
+
+          <h1 id="result-word">Resultat</h1>
+          <div class="result-score"><span id="final-score">0</span><small>poäng</small></div>
+
+          <div class="stats">
+            <div><strong id="final-correct">0</strong><span>rätt</span></div>
+            <div><strong id="final-wrong">0</strong><span>fel</span></div>
+            <div><strong id="final-accuracy">0%</strong><span>träffsäkerhet</span></div>
+            <div><strong id="final-streak">0</strong><span>bästa streak</span></div>
+          </div>
+
+          <p id="best-score-text" class="best-score"></p>
+
+          <div class="save-score-panel">
+            <label for="player-name">Spara resultat</label>
+            <div class="save-score-row">
+              <input id="player-name" type="text" maxlength="20" placeholder="Ditt namn" autocomplete="nickname">
+              <button id="save-score-btn" class="secondary">Spara</button>
+            </div>
+            <p id="save-status" class="save-status" aria-live="polite"></p>
+          </div>
+        </div>
+
+        <aside class="leaderboard result-leaderboard">
+          <div class="leaderboard-header">
+            <h2>Lokala topplistan</h2>
+          </div>
+          <ol id="leaderboard-list"></ol>
+        </aside>
+      </div>
+
+      <button id="restart-btn" class="primary result-restart">Spela igen</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
